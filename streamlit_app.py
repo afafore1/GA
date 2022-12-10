@@ -40,3 +40,5 @@ def streamlit_app():
 def create_gif(img_list):
     # create a gif from the list of images
     imageio.mimsave("gif.gif", img_list)
+
+streamlit_app()
